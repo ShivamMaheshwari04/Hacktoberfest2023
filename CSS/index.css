@@ -1,52 +1,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Gabarito&family=Gruppo&family=Jost&family=Lato&family=Montserrat:wght@500&family=Oswald:wght@300&family=Pacifico&family=Poppins&family=Quicksand&family=Roboto&family=Teko:wght@500&display=swap');
 
 /* Resetting some default styles */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gabarito', cursive;
 }
 
-/* Navbar Section */
-.navbar {
-    background-color: aquamarine;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.wrapper{
+    overflow-y: hidden;
+
 }
+.nav-item{
+    transition: all 1s ease-in-out;
+    padding: 0px 20px;
+    border: none;
+}
+.nav-item a:hover{
+    color: black;
+    border-radius : 18px;
+    background-color: white;
+    transition: all 1ms;
+
+}
+/* Navbar Section */
+
 
 .logo {
     font-size: 40px;
     font-family: 'Gabarito', cursive;
     padding: 10px 25px;
 }
-
 .navbar-list {
     list-style: none;
     display: flex;
 }
+
 
 .navbar-list-item {
     font-size: 30px;
     padding: 10px 20px;
     cursor: pointer;
 }
-
 .navbar a {
     text-decoration: none;
     color: black;
 }
 
-/* Additional styles for the "Contributors" link */
-.navbar-list-item a {
-    color: inherit;
-}
-
-.navbar-list-item a:hover {
-    color: #ff9900;
-}
-
+/* Additional styles for the "Contributors" link 
 /* Hamburger menu icon */
 .menu-toggle {
     display: none;

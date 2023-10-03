@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <title>CodeX</title>
 </head>
+
 <body>
-    <nav class="navbar">
+    <div class="wrapper">
+        <!-- <nav class="navbar">
         <span class="logo">CodeX</span>
         <div class="menu-toggle">
             <i class="fa fa-bars"></i>
@@ -20,21 +28,46 @@
                 <a href="#contributors">Contributors</a>
             </li>
         </ul>
-    </nav>
-    
-    <div class="container-1">
-        <div>        
-            <img src="assets/code.jpg" height="200px" width="200px">
+    </nav> -->
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <a class="logo" href="#">CodeX</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0" Style="font-size: 30px;">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contributor</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container-1">
+            <div>
+                <img src="assets/code.jpg" height="200px" width="200px">
+            </div>
+            <br>
+            <div class="main-logo animated">
+                Welcome to CodeX
+            </div>
+            <button class="explore-btn">
+                Explore
+            </button>
         </div>
-        <br>
-        <div class="main-logo animated">
-            Welcome to CodeX
-        </div>
-        <button class="explore-btn">
-            Explore
-        </button>
-    </div>
-    
+
 
         <div class="container-2" id="contributors">
             <div class="main-logo" id="contri">
@@ -44,7 +77,8 @@
             <div class="people">
                 <div class="card">
                     <div class="img-sec">
-                        <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" height="150px" width="150px">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/avatar-2027365_1280.png" height="150px"
+                            width="150px">
                     </div>
                     <div class="info">
                         <div class="label">Sarthak Vishwakarma</div>
@@ -58,7 +92,8 @@
                 </div>
                 <div class="card">
                     <div class="img-sec">
-                         <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png" height="150px" width="150px">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png"
+                            height="150px" width="150px">
                     </div>
                     <div class="info">
                         <div class="label">Meet Thakur</div>
@@ -69,13 +104,14 @@
                             </a>
                         </div>
                     </div>
-                 </div>
+                </div>
                 <div class="card">
-                        <div class="img-sec">
-                            <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png" height="150px" width="150px">
-                        </div>
+                    <div class="img-sec">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png"
+                            height="150px" width="150px">
+                    </div>
                     <div class="info">
-                        <div class="label">  Visa Coder   </div>
+                        <div class="label"> Visa Coder </div>
                         <div class="desc">Contributor</div>
                         <div class="github">
                             <a href=" https://www.github.com/codeWithVisa  ">
@@ -83,48 +119,50 @@
                             </a>
                         </div>
                     </div>
+                </div>
+
+                <div class="card">
+                    <div class="img-sec">
+                        <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png"
+                            height="150px" width="150px">
                     </div>
-
-                    <div class="card">
-                        <div class="img-sec">
-                             <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png" height="150px" width="150px">
-                        </div>
-                        <div class="info">
-                            <div class="label">Nalukui malimba</div>
-                            <div class="desc">Contributor</div>
-                            <div class="github">
-                                <a href="https://github.com/nalukui01">
-                                    <img src="assets/github-mark.png" height="50px" width="50px">
-                                </a>
-                            </div>
-                        </div>
-                     </div>
-
-
-
-
-
-                <!-- =================== Add Your Profile Above this ==================== -->
-
-                <!-- 
-
-                    **** Boys Avatar ****
-
-                    <div class="card">
-                        <div class="img-sec">
-                            <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png" height="150px" width="150px">
-                        </div>
                     <div class="info">
-                        <div class="label">  [NAME]   </div>
+                        <div class="label">Nalukui malimba</div>
                         <div class="desc">Contributor</div>
                         <div class="github">
-                            <a href=" [GITHUB PROFILE LINK]  ">
+                            <a href="https://github.com/nalukui01">
                                 <img src="assets/github-mark.png" height="50px" width="50px">
                             </a>
                         </div>
                     </div>
-                    </div>
+                </div>
 
+            </div>
+
+
+
+            <!-- =================== Add Your Profile Above this ==================== -->
+
+
+
+            <!-- **** Boys Avatar **** -->
+
+            <div class="card">
+                <div class="img-sec">
+                    <img src="https://cdn.pixabay.com/photo/2017/01/31/21/23/   avatar-2027365_1280.png" height="150px"
+                        width="150px">
+                </div>
+                <div class="info">
+                    <div class="label"> Shivam Maheshwari </div>
+                    <div class="desc">Contributor</div>
+                    <div class="github">
+                        <a href="https://github.com/ShivamMaheshwari04">
+                            <img src="assets/github-mark.png" height="50px" width="50px">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!--
                     **** Girls Avatar ****
 
                     <div class="card">
@@ -145,28 +183,31 @@
 
                  -->
 
-                 <!-- ================================================================== -->
+            <!-- ================================================================== -->
 
 
 
-                
+
+        </div>
+    </div>
+    <div class="footer">
+        <div class="first-footer">
+            <div id="title">Repository Maintainer</div>
+            <div id="name">Sarthak Vishwakarma</div>
+            <div id="clg">Madan Mohan Malaviya University Of Technology, Gorakhpur</div>
+        </div>
+        <div class="social-media">
+            <div class="media1">
+                <a href="https://www.linkedin.com/in/hellosarthak/" target="_blank"><img
+                        src="assets/pngwing.com (25).png" height="40px" width="40px"></a>
+            </div>
+            <div class="media1">
+                <a href="https://www.instagram.com/sarthak_buddy" target="_blank"><img src="assets/instagram (8).png"
+                        height="33px" width="33px"></a>
             </div>
         </div>
-        <div class="footer">
-            <div class="first-footer">
-                <div id="title">Repository Maintainer</div>
-                <div id="name">Sarthak Vishwakarma</div>
-                <div id="clg">Madan Mohan Malaviya University Of Technology, Gorakhpur</div>
-            </div>
-            <div class="social-media">
-                <div class="media1">
-                    <a href="https://www.linkedin.com/in/hellosarthak/" target="_blank"><img src="assets/pngwing.com (25).png" height="40px" width="40px"></a>
-                </div>
-                <div class="media1">
-                    <a href="https://www.instagram.com/sarthak_buddy" target="_blank"><img src="assets/instagram (8).png" height="33px" width="33px"></a>
-                </div>
-            </div>
-        </div>
+    </div>
 
 </body>
+
 </html>
